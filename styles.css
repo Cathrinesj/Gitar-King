@@ -1,0 +1,19 @@
+header {
+    background-color:black;
+  }
+Header a {
+    font-family: open Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+  }
+nav li {
+    display: inline-block;
+    text-decoration-color: darkorange;
+  }
+.cta-button {
+    background-color: coral; 
+    text-decoration-color: rgb(76, 2, 160);
+   }
+
+.reviews {
+    background-color: rgb(136, 156, 156);
+  }

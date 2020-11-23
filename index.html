@@ -4,19 +4,26 @@
         <title>This is my first try for a Gitar King Homepage</title>
         <meta name="description" content="The home page to my first ever website.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet"
     </head>
-    <body>
-        <a href=index.html>Guitar Kings</a>
-        <img src="Images/homepage.jpg" alt="Picture of guitar in use"/>
-        <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=guitars.html>Guitars</a></li>
-            <li><a href=contact.html>Contact</a></li>
-        </ul>
 
+    <body>
+        <header>
+            <nav>
+                  <ul>
+                       <li><a href=index.html>Guitar Kings</a></li>
+        
+       
+                       <li><a href=index.html>Home</a></li>
+                       <li><a href=guitars.html>Guitars</a></li>
+                       <li><a href=contact.html>Contact</a></li>
+                  </ul>
+            </nav>
+        </header>   
+        <img src="images/homepage.jpg" alt="Picture of guitar in use" width="800" height="360">
         <h1>Authentic Handmade Guitars</h1>
 
-        <a href=guitars.html> View Our Gitars</a>
+        <a href=guitars.html class="cta-button"> View Our Gitars</a>
         
         <h2>Our Gitars Are:</h2>
         <ul>
@@ -27,29 +34,33 @@
             <li>Options for all music lovers</li>
         </ul>
 
-        <p>Hands strumming guitars</p>
+        <section class=reviews>
 
         <h2>Reviews</h2>
 
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis posuere tortor ut venenatis." - Bob Willis</p>
-        <img src="Images/bob.jpg" alt="Picture of Bob Willis"/>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis posuere tortor ut venenatis." - Sally Oldfield</p>
-        <img src="Images/Sally.jpg" alt="Picture of Sally Oldfield"/>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis posuere tortor ut venenatis." - Bob Willis </p>
+            <img src="images/bob.jpg" alt="Picture of Bob Willis" width="300" height="400">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis posuere tortor ut venenatis." - Sally Oldfield </p>
+            <img src="images/Sally.jpg" alt="Picture of Sally Oldfield" width="300" height="400">
 
-<h2>View Our Gitars</h2>
-<p>Adirondack Red</p>
-<h3>Adirondack Red</h3>    
-<p>$500</p>
+        </section>
 
-<a href=Guitars/adirondack-red.html>View</a>
-<p>Adirondack Red</p>
+        <section>
 
-<h3>Adirondack Red</h3>    
-<p>$500</p>
+            <h2>View Our Gitars</h2>
+            <p>Adirondack Red</p>
+            <h3>Adirondack Red</h3>    
+            <p>$500</p>
 
-<a href=Guitars/adirondack.html>View</a>
-<p>Adirondack Red</p>
+            <a href=Guitars/adirondack-red.html class="cta.button"> View</a>
+            <p>Adirondack Red</p>
 
+            <h3>Adirondack Red</h3>    
+            <p>$500</p>
+
+             <a href=Guitars/adirondack-red.html class="cta.button"> View</a>
+            <p>Adirondack Red</p>
+        </section>
 
     </body>
 </html>
